@@ -7,8 +7,8 @@ int main() {
 
 	string input = " ";
 
-	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? " << endl;
-	cin >> input;
+	cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
+	getline(cin, input);
 
 	string output;
 
@@ -18,12 +18,29 @@ int main() {
 			output = output + input.at(i) + input.at(i);
 		}
 
-		else
-			output = "baum";
+		else if (input.at(i) >= 'A' && input.at(i) <= 'Z') {
+			output = output + input.at(i) + input.at(i) + input.at(i);
+		}
+
+		else if (input.at(i) == '?' || input.at(i) == '!') {
+			output = output;
+		}
+
+		else if (input.at(i) >= '0' && input.at(i) <= '9') {
+			output += '.';
+		}
+
+		else if (input.at(i) == ' ') {
+			output += '_';
+		}
+
+		else {
+			output += input.at(i);
+		}
 	}
 
-	cout << output <<endl;
+		cout << "Der Text nach der Umwandlung: " << output << endl;
 
-	system("PAUSE");
-	return 0;
+		system("PAUSE");
+		return 0;
 }

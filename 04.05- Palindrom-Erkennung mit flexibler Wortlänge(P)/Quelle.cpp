@@ -7,23 +7,17 @@ int main() {
 
 	string input;
 	bool b = true;
-
-	cout << 'a';
-	cout << ' ';
+	int i = 0;
 
 	do {
 		cout << "Text: ? ";
-		cin >> input;
+		getline(cin, input);
 
-		for (int i = 0; i < input.length(); i++) {
-
-			if (input[i] < 'a' || input[i] > 'z') {
-				b = false;
-				break;
-			}
-
+		while (i < input.length()) {
+			i++;
 		}
-	} while (b = true);
+
+	} while (input[i] < 'a' || input[i] > 'z');
 
 	/*while(true) { //endlosschleife
 

@@ -8,10 +8,10 @@ int main()
 	cin >> Zeichen;
 
 	if (Zeichen < 'a' || Zeichen > 'z')
-		cout << "KEIN Kleinbuchstabe (a-z) eingegeben." << endl;
+		cout << "KEIN Kleinbuchstabe (a-z)." << endl;
 
 	else 
-		cout << "Es wurde ein Kleinbuchstabe (a-z)." << endl;
+		cout << "Es wurde ein Kleinbuchstabe (a-z) eingegeben." << endl;
 
 		system("PAUSE");
 		return 0;

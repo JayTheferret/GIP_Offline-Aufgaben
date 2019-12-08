@@ -11,11 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-04 (F)", "02-04 (F)\02-0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.05-Palindrom-Erkennung mit flexibler Wortlänge(P)", "04.05- Palindrom-Erkennung mit flexibler Wortlänge(P)\04.05- Palindrom-Erkennung mit flexibler Wortlänge(P).vcxproj", "{310ED09B-618D-4175-B586-E09771D1CB76}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10-Buchstaben im String umwandeln", "04.10-Buchstaben im String umwandeln\04.10-Buchstaben im String umwandeln.vcxproj", "{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.01-Prüfung auf Kleinbuchstabe(P)", "03.01-Prüfung auf Kleinbuchstabe(P)\Offline Aufgaben.vcxproj", "{3390AF1E-FC61-4348-8002-2B8FF75D00A9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.02-Ja Nein Eingabe erkennen(P)", "03.02-Ja Nein Eingabe erkennen(P)\03-02.vcxproj", "{C24B693B-9260-420B-9EF2-3787B754C30B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10-Buchstaben im String umwandeln", "04.10-Buchstaben im String umwandeln(P)\04.10-Buchstaben im String umwandeln.vcxproj", "{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,14 +57,6 @@ Global
 		{310ED09B-618D-4175-B586-E09771D1CB76}.Release|x64.Build.0 = Release|x64
 		{310ED09B-618D-4175-B586-E09771D1CB76}.Release|x86.ActiveCfg = Release|Win32
 		{310ED09B-618D-4175-B586-E09771D1CB76}.Release|x86.Build.0 = Release|Win32
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x64.ActiveCfg = Debug|x64
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x64.Build.0 = Debug|x64
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x86.ActiveCfg = Debug|Win32
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x86.Build.0 = Debug|Win32
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x64.ActiveCfg = Release|x64
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x64.Build.0 = Release|x64
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x86.ActiveCfg = Release|Win32
-		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x86.Build.0 = Release|Win32
 		{3390AF1E-FC61-4348-8002-2B8FF75D00A9}.Debug|x64.ActiveCfg = Debug|x64
 		{3390AF1E-FC61-4348-8002-2B8FF75D00A9}.Debug|x64.Build.0 = Debug|x64
 		{3390AF1E-FC61-4348-8002-2B8FF75D00A9}.Debug|x86.ActiveCfg = Debug|Win32
@@ -81,6 +73,14 @@ Global
 		{C24B693B-9260-420B-9EF2-3787B754C30B}.Release|x64.Build.0 = Release|x64
 		{C24B693B-9260-420B-9EF2-3787B754C30B}.Release|x86.ActiveCfg = Release|Win32
 		{C24B693B-9260-420B-9EF2-3787B754C30B}.Release|x86.Build.0 = Release|Win32
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x64.ActiveCfg = Debug|x64
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x64.Build.0 = Debug|x64
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Debug|x86.Build.0 = Debug|Win32
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x64.ActiveCfg = Release|x64
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x64.Build.0 = Release|x64
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x86.ActiveCfg = Release|Win32
+		{BA648A72-EC91-4C33-95BA-4FDA3A1F9E3F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

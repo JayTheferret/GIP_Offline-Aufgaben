@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.10-Buchstaben im String 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04.12-Parallelogramm zeichnen", "04.12-Parallelogramm zeichnen\04.12-Parallelogramm zeichnen.vcxproj", "{0870689E-AA94-4A54-8CDC-450D555C7C2F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.05-Unterschiedliche Eingaben zählen", "05.05-Unterschiedliche Eingaben zählen\05.05-Unterschiedliche Eingaben zählen.vcxproj", "{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{0870689E-AA94-4A54-8CDC-450D555C7C2F}.Release|x64.Build.0 = Release|x64
 		{0870689E-AA94-4A54-8CDC-450D555C7C2F}.Release|x86.ActiveCfg = Release|Win32
 		{0870689E-AA94-4A54-8CDC-450D555C7C2F}.Release|x86.Build.0 = Release|Win32
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Debug|x64.ActiveCfg = Debug|x64
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Debug|x64.Build.0 = Debug|x64
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Debug|x86.Build.0 = Debug|Win32
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Release|x64.ActiveCfg = Release|x64
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Release|x64.Build.0 = Release|x64
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Release|x86.ActiveCfg = Release|Win32
+		{BAE5D76B-AC5B-48FA-9A22-3F52BE9D22FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

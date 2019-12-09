@@ -21,7 +21,6 @@ void print_canvas(char canvas[][canvas_size])
 }
 void linie(int x1, int y1, int x2, int y2, char canvas[][canvas_size])
 {
-    // … Ihr Code hier …
     if ((x1, y1) und(x2, y2) sind benachbart) {
         Zeichne die Punkte(x1, y1) und(x2, y2)
     }

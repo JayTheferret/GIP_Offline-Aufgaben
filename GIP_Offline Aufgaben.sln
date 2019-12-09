@@ -25,6 +25,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05.09-String-Funktion trimm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.01-Zeichenkette aufteilen ab Zeichen", "06.01-Zeichenkette aufteilen ab Zeichen\06.01-Zeichenkette aufteilen ab Zeichen.vcxproj", "{BFA38310-C18D-4AD2-96BD-83D7165456FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03-Linien zeichnen (rekursiv)(P)", "06.03-Linien zeichnen (rekursiv)(P)\06.03-Linien zeichnen (rekursiv)(P).vcxproj", "{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01-Text rechtsbündig setzen", "07.01-Text rechtsbündig setzen\07.01-Text rechtsbündig setzen.vcxproj", "{671FF5D8-CC92-476A-B5AF-7D93191B152D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +125,22 @@ Global
 		{BFA38310-C18D-4AD2-96BD-83D7165456FD}.Release|x64.Build.0 = Release|x64
 		{BFA38310-C18D-4AD2-96BD-83D7165456FD}.Release|x86.ActiveCfg = Release|Win32
 		{BFA38310-C18D-4AD2-96BD-83D7165456FD}.Release|x86.Build.0 = Release|Win32
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Debug|x64.ActiveCfg = Debug|x64
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Debug|x64.Build.0 = Debug|x64
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Debug|x86.Build.0 = Debug|Win32
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Release|x64.ActiveCfg = Release|x64
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Release|x64.Build.0 = Release|x64
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Release|x86.ActiveCfg = Release|Win32
+		{09DEAFCB-839F-4EB4-A018-2CD8B4472AF9}.Release|x86.Build.0 = Release|Win32
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Debug|x64.ActiveCfg = Debug|x64
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Debug|x64.Build.0 = Debug|x64
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Debug|x86.ActiveCfg = Debug|Win32
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Debug|x86.Build.0 = Debug|Win32
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x64.ActiveCfg = Release|x64
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x64.Build.0 = Release|x64
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x86.ActiveCfg = Release|Win32
+		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

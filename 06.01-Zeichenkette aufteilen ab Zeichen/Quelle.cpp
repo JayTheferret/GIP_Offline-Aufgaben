@@ -21,16 +21,6 @@ void spalte_ab_erstem(char zeichen, string eingabe, string& erster_teil, string&
 		else { //rest in zweiter_teil packen
 			zweiter_teil += eingabe[i];
 		}
-
-
-
-		/*for (int j = 0; j < i; j++) {
-			erster_teil += eingabe[j];
-		}
-		for (int j = i + 1; j < eingabe.size(); j++) {
-			zweiter_teil += eingabe[j];
-		}
-	}*/
 	}
 }
 

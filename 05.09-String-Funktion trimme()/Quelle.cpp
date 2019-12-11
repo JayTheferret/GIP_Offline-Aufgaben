@@ -5,33 +5,33 @@ using namespace std;
 
 string trimme(string s) {
     string output;
-    char anfang;
-    char ende;
+    int anfang = 0;
+    int ende = 0;
 
-    //vorne entfernen
+    //anfang definieren
 
     for (int i = 0; i < s.length(); i++) { //string durchlaufen
 
         if (s[i] != '+') {
-            anfang = s[i];
             break;
         }
-        return anfang;
+        anfang++;
     }
 
-    for (int i = s.length(); i > 0; i--) { //string durchlaufen rückwärts
+    //ende definieren
+
+    for (int i = s.length()-1; i >= 0; i--) { //string durchlaufen rückwärts
 
         if (s[i] != '+') {
-            ende = s[i];
             break;
         }
+        ende++;
     }
 
-    for (int i = 0; i < s.length(); i++) {
+    //output schreiben (zwischen anfang und ende)
 
-        if (s[i] >= anfang && s[i] <= ende) {
+    for (int i = anfang; i < s.length() - ende; i++) {
             output += s[i];
-        }
     }
    
     s = output;

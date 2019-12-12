@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.05-Kleinbuchstaben in Gr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.03-Zahlziffer-Umwandlung(F)", "03.03-Zahlziffer-Umwandlung(F)\03.03-Zahlziffer-Umwandlung(F).vcxproj", "{7E28EC6B-72CC-423E-80CF-6ACDFD9390C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.04-Grüßen gemäß Tageszeit(F)", "03.04-Grüßen gemäß Tageszeit(F)\03.04-Grüßen gemäß Tageszeit(F).vcxproj", "{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{7E28EC6B-72CC-423E-80CF-6ACDFD9390C5}.Release|x64.Build.0 = Release|x64
 		{7E28EC6B-72CC-423E-80CF-6ACDFD9390C5}.Release|x86.ActiveCfg = Release|Win32
 		{7E28EC6B-72CC-423E-80CF-6ACDFD9390C5}.Release|x86.Build.0 = Release|Win32
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Debug|x64.ActiveCfg = Debug|x64
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Debug|x64.Build.0 = Debug|x64
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Debug|x86.ActiveCfg = Debug|Win32
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Debug|x86.Build.0 = Debug|Win32
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x64.ActiveCfg = Release|x64
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x64.Build.0 = Release|x64
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x86.ActiveCfg = Release|Win32
+		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.03-Zahlziffer-Umwandlung
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.04-Grüßen gemäß Tageszeit(F)", "03.04-Grüßen gemäß Tageszeit(F)\03.04-Grüßen gemäß Tageszeit(F).vcxproj", "{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03.05-Palindrom-Erkennung bei fester Wortlänge(F)", "03.05-Palindrom-Erkennung bei fester Wortlänge(F)\03.05-Palindrom-Erkennung bei fester Wortlänge(F).vcxproj", "{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x64.Build.0 = Release|x64
 		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x86.ActiveCfg = Release|Win32
 		{8531946A-9D52-4C00-A6E6-6DC211A3D2D8}.Release|x86.Build.0 = Release|Win32
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Debug|x64.ActiveCfg = Debug|x64
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Debug|x64.Build.0 = Debug|x64
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Debug|x86.Build.0 = Debug|Win32
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Release|x64.ActiveCfg = Release|x64
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Release|x64.Build.0 = Release|x64
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Release|x86.ActiveCfg = Release|Win32
+		{4D0AE8E0-2CBF-4E8A-A584-B9AB8A30FAE0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

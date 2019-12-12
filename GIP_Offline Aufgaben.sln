@@ -29,6 +29,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06.03-Linien zeichnen (reku
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.01-Text rechtsbündig setzen", "07.01-Text rechtsbündig setzen\07.01-Text rechtsbündig setzen.vcxproj", "{671FF5D8-CC92-476A-B5AF-7D93191B152D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07.05-Morse Alphabet(P)", "07.05-Morse Alphabet(P)\07.05-Morse Alphabet(P).vcxproj", "{68637408-4536-4E45-BF83-155D27BAD506}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.05-Kleinbuchstaben in Großbuchstaben umwandeln(F)", "02.05-Kleinbuchstaben in Großbuchstaben umwandeln(F)\02.05-Kleinbuchstaben in Großbuchstaben umwandeln(F).vcxproj", "{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +145,22 @@ Global
 		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x64.Build.0 = Release|x64
 		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x86.ActiveCfg = Release|Win32
 		{671FF5D8-CC92-476A-B5AF-7D93191B152D}.Release|x86.Build.0 = Release|Win32
+		{68637408-4536-4E45-BF83-155D27BAD506}.Debug|x64.ActiveCfg = Debug|x64
+		{68637408-4536-4E45-BF83-155D27BAD506}.Debug|x64.Build.0 = Debug|x64
+		{68637408-4536-4E45-BF83-155D27BAD506}.Debug|x86.ActiveCfg = Debug|Win32
+		{68637408-4536-4E45-BF83-155D27BAD506}.Debug|x86.Build.0 = Debug|Win32
+		{68637408-4536-4E45-BF83-155D27BAD506}.Release|x64.ActiveCfg = Release|x64
+		{68637408-4536-4E45-BF83-155D27BAD506}.Release|x64.Build.0 = Release|x64
+		{68637408-4536-4E45-BF83-155D27BAD506}.Release|x86.ActiveCfg = Release|Win32
+		{68637408-4536-4E45-BF83-155D27BAD506}.Release|x86.Build.0 = Release|Win32
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Debug|x64.ActiveCfg = Debug|x64
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Debug|x64.Build.0 = Debug|x64
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Debug|x86.Build.0 = Debug|Win32
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Release|x64.ActiveCfg = Release|x64
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Release|x64.Build.0 = Release|x64
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Release|x86.ActiveCfg = Release|Win32
+		{36FD28E1-CB5B-4CD7-AA9D-2E6DA75546CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

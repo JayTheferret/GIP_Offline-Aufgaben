@@ -25,7 +25,7 @@ int main() {
 	}
 
 	cout << "Die kleinste eingegebene Zahl lautet: " << k << endl;
-	cout << "Die groesste eingegebene zahl lautet: " << g << endl;
+	cout << "Die groesste eingegebene Zahl lautet: " << g << endl;
 
 	system("PAUSE");
 	return 0;

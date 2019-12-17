@@ -10,7 +10,7 @@ int main() {
 	cin >> input;
 
 	if (input == 'e') {
-		cout << "Das Programm beendet sich jetzt. " << endl;
+		cout << "Das Programm beendet sich jetzt." << endl;
 	}
 
 	else if (input >= '0' && input <= '9') {
@@ -19,7 +19,7 @@ int main() {
 	}
 
 	else {
-		cout << "Weder 'e' noch Ziffer " << endl;
+		cout << "Weder 'e' noch Ziffer" << endl;
 	}
 
 	system("PAUSE");

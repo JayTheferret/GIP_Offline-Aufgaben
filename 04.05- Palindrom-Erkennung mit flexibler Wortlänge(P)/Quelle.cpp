@@ -3,52 +3,54 @@
 
 using namespace std;
 
+bool only_letters(string input){
+
+	int i = 0;
+
+	while ( i < input.length()) {
+
+		if (input[i] < 'a' || input[i]  > 'z') {
+			return false;
+			break;
+		}
+
+		else {
+			i++;
+		}
+	}
+
+	return true;
+}
+
 int main() {
 
 	string input;
-	bool b = true;
-	int i = 0;
 
 	do {
 		cout << "Text: ? ";
 		getline(cin, input);
 
-		while (i < input.length()) {
-			i++;
-		}
-
-	} while (input[i] < 'a' || input[i] > 'z');
-
-	/*while(true) { //endlosschleife
-
-
-		cout << "Text: ? ";
-		cin >> input;
-
-		
-
-		for (int i = 0; i < input.length(); i++) {
-
-			if (input[i] >= 'a' || input[i] <= 'z') {
-				b = true;
-				break;
-			}
-
-			if (b == true)
-				break;
-		}
-	}*/
+	} while (only_letters(input) == false);
 
 	//test auf palindrom
 
-	//if(palindrom test positiv)
-		cout << "schleife verlassen";
-	cout << "Das eingegebene Wort ist ein Palindrom. " << endl;
-	
-	//if palindrom test negativ
-	cout << "Das eingegebene Wort ist KEIN Palindrom. ";
+	string input_reverse;
 
-		return 0;
+	for (int i = input.length()-1; i >= 0; i--) {
+		input_reverse += input[i];
+	}
+
+
+	if (input == input_reverse) {
+
+		cout << "Das eingegebene Wort ist ein Palindrom." << endl;
+	}
+	
+	else {
+		cout << "Das eingegebene Wort ist KEIN Palindrom." << endl;
+	}
+
 		system("PAUSE");
+		return 0;
 
 }

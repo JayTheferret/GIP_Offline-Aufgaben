@@ -6,10 +6,10 @@ using namespace std;
 struct T_Morse_Data
 {
     char letter;
-    std::string morse_code;
+    string morse_code;
 };
 
-const T_Morse_Data morse_data[] = 
+const T_Morse_Data morse_data[] = {
 
  { 'a', ".-" },
  { 'b', "-..." },
@@ -64,3 +64,35 @@ const T_Morse_Data morse_data[] =
  { '=', "-...-" }
 };
 const int morse_data_len = 45;
+
+int main() {
+
+    string text;
+  
+    std::cout << "Bitte Text eingeben (ggfs. mit Leerzeichen): ? ";
+    getline(cin, text);
+    
+
+    for (int j = 0; j < text.length(); j++) { //text durchlaufen
+
+        if (text[j] <= 'Z' && text[j] >= 'A') {//Groﬂbuchstaben durch Kleinbuchstaben ersetzen
+
+            text[j] += 32;
+        }
+        
+        for (int i = 0; i < morse_data_len; i++) { //morse alphabet durchlaufen
+
+            if (morse_data[i].letter == text[j]) {
+                cout << morse_data[i].morse_code << "#";
+            }
+        }
+    }
+
+    std::cout << endl;
+
+
+
+    std::system("PAUSE");
+    return 0;
+
+}

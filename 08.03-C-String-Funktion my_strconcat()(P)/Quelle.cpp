@@ -1,9 +1,26 @@
 #include <iostream>
-#include <string>
+//#include <string>
 
 using namespace std;
 
+/*char* my_strconcat(const char* ptr1,
+	const char* ptr2) {
+
+}*/
+
 int main() {
+
+	char string1[20], string2[20];
+
+	cin >> string1;
+	cout << string1;
+
+	system("PAUSE");
+	return 0;
+	
+}
+
+/*int main() {
 
 	string text1, text2;
 
@@ -19,4 +36,4 @@ int main() {
 	system("PAUSE");
 	return 0;
 
-}
+}*/
